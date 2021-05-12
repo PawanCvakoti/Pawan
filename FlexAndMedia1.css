@@ -1,0 +1,98 @@
+*{box-sizing: border-box;}
+
+.clear{clear:both;}
+
+.one{background-color: mediumpurple;
+width:100%;
+height: 100px;
+padding-top: 30px;
+font-size:30px;
+font-weight: bolder;
+color: white;}
+
+
+ul {padding: 0px;
+margin-top: 5px;
+float: left;
+width:20%;}
+
+ul li{display: block;
+background-color: skyblue;
+margin-top:3px; 
+margin-bottom: 5px;
+padding:5px;
+text-align: center;
+font-weight: bolder;
+color: white;}
+
+.City{width:30%;
+ float:left;
+margin-left: 15%;
+font-size: 20px;}
+
+.two{background-color: skyblue;
+float:right;
+width:240px;
+height:400px;
+padding-top: 10px;
+text-align: center;
+margin-top:8px;
+font-weight: bolder;
+color: white;}
+
+footer{background-color: #669;
+width:100%;
+height: 70px;
+text-align: center;
+padding-top: 35px;
+font-size:18px;
+font-weight: bolder;
+margin-top: 8px;
+color: white;}
+
+@media screen and (max-width: 800px){
+	
+ul{width: 30%;}	
+
+.City{
+width:60%;
+margin-left: 5%;
+margin-top: 0.5%;
+font-size: 20px;}
+
+.two{width:100%;
+height:150px;
+padding-top: 10px;
+text-align: center;
+margin-top:100px;
+font-weight: bolder;
+font-size: 10px;
+line-height: 8px;}
+
+footer{height:80px;}
+
+
+}
+
+@media screen and (max-width: 500px){
+
+	body{background-color: red;}
+
+	ul{width: 100%;}
+
+	.City{width: 80%
+margin-left: 2%;
+margin-top: 8%;
+font-size: 20px;}
+	
+.two{width:100%;
+height:150px;
+padding-top: 10px;
+text-align: center;
+margin-top:100px;
+font-weight: bolder;
+font-size: 10px;
+line-height: 8px;}
+
+footer{height:80px;}
+}

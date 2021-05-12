@@ -1,0 +1,55 @@
+*{box-sizing: border-box;}
+
+body{background-color: skyblue;}
+
+header{background-color: white;
+height: 60px;
+text-align: center;
+margin-top:20px;
+margin-bottom:20px;
+font-size:40px;
+font-weight: bolder;
+font-family:'Lobster', cursive;}
+
+a{text-decoration:none; }
+
+.ul{
+margin-left:13%;
+margin-right: 13%;
+margin-top: 3%;
+display:block;
+padding:0;}
+
+.div{color: white;
+font-weight: bolder;
+font-size: 18px;
+font-family: "Comic Sans MS";}
+
+.img{width:100%;
+display:block;}
+
+
+.ul1{background-color:white;
+	padding: 0;
+	display:flex;
+margin-top: 2%;}
+
+.li1{margin:1px;}
+
+.img1{width:100%;
+display:block;}
+
+.span2{background-color: rgb(96, 125, 139);
+	display:block;
+	padding:5px;
+color:gold;}
+
+@media screen and (max-width: 800px){
+	.ul1{display:flex;
+		flex-wrap: wrap;
+	}
+
+
+		
+}
+

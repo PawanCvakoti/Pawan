@@ -1,0 +1,38 @@
+*{box-sizing: border-box;}
+
+/*header{border:10px solid red;
+border-radius:20px 50px;
+background-image:url(background2.jpg);
+background-size:cover;
+height: 200px;
+width: 10%;
+text-align: center;
+padding-top: 80px;
+font-weight: bolder;}*/
+
+header{border:50px solid red;
+	border-image:url(flower1.jpg);
+	border-image-slice: 110;
+	border-image-repeat: round;
+	background-image: url(flower2.jpg),url(flower.gif);
+	background-position: left top, right;
+	background-blend-mode: multiply;
+	background-repeat: repeat,no-repeat;
+	padding:0;
+	line-height: 35px;
+	padding-top: 80px;
+	height: 600px;}
+
+div{width:70%;
+padding-left: 2%;}
+h1{padding-bottom: 15px;}
+p{line-height: 15px;}
+
+@media  screen and (max-width: 600px){
+	header{background-position: left top, center;
+		padding-top: 60px;
+		line-height: 20px;}
+		h1{font-size: 25px;}
+}
+
+
