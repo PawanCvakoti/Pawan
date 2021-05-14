@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Survey Form</title>
+	<link rel="stylesheet" type="text/css" href="Form.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+<h1>Survey 2021</h1>
+<div class="main">
+	<div class="register">
+		<h1 class="heading">Fillup Here</h1>
+<form action="/action_page.php" method="post" target="_blank"  id="register">
+	<fieldset>
+		<legend><span>Survey Form</span></legend>
+	<fieldset>
+		<legend>Name</legend>
+		<label>First Name:</label><br>
+		<input type="text"  id="name" name="fname" placeholder="Enter Your First Name" required="required" autofocus="autofocus"><br><br>
+		<label>Last Name:</label><br>
+		<input type="text"  id="name" name="sname" placeholder="Enter Your Last Name">
+	</fieldset>
+	<fieldset>
+		<legend>Personal Detail</legend>
+		<label>Country Name:</label><br>
+			<input type="text"  name="country" id="name" placeholder="Country Name" required="required"><br><br>
+		<label>Contact Number:</label><br>
+			<select id="name" name="number">
+				<option value="Nepal">+977</option>
+				<option value="India">+91</option>
+				<option value="Sri Lanka">+94</option>
+				<option value="China">+86</option>
+				<option value="America">+1</option>
+				<option value="Australia">+61</option>
+				<option value="Canada">+1</option>
+				<option value="Unidet Kingdom">+44</option>
+				<option value="Mexico">+52</option>
+			</select>
+			<input type="tel" name="Phone" id="name" placeholder="Enter Number" required="required"><br><br>
+			<label>Gender:</label><br>
+			&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="radio" name="gender" id="gender">
+			<span id="gender">Male</span>
+			&nbsp;&nbsp;
+			<input type="radio" name="gender" id="gender">
+			<span id="gender">Female</span>
+			&nbsp;&nbsp;
+			<input type="radio" name="gender" id="gender">
+			<span id="gender">Others</span><br><br>
+			<label>Age:</label><br>
+			<input type="number" name="age" id="name" min="10" placeholder="Enter Age" required="required" value="10"><br><br>
+			<label>Address:</label><br>
+			<input type="text"  name="address" id="name" placeholder="Address" required="required"><br><br>
+			<label>Email:</label><br>
+			<input type="email"  name="email" id="name" placeholder="Email address" required="required"><br><br>
+			<label>Password:</label><br>
+			<input type="password"  name="password" id="name" placeholder="Password" required="required"><br><br>
+			<label>Date Of Birth:</label><br>
+			<input type="date" name="dateofbirth" id="name" placeholder="dd/mm/yy" required="required" min="1950-01-01"><br><br>
+			<label>Verification:</label><br>
+			<select id="Verification" name="Verification">
+				<option value="Citigenship">Citigenship</option>
+				<option value="Voter id card">Voter id card</option>
+				<option value="Driving License">Driving License</option>
+				<option value="Birth Certificate">Birth Certificate</option>
+				<option value="Marriage Certificate">Marriage Certificate</option>
+			</select>
+			<input type="file" name="Verification" id="Verification" required="required">
+
+	</fieldset>
+	<fieldset>
+		<legend>Personal Interest</legend>
+		<legend for="colr">Color:</legend>
+		<input type="color" name="color" id="color"><br><br>
+		<label>Vehicles:</label>
+<input type="checkbox" name="Vehicles" id="Vehicles" value="bike">
+<span id="Vehicles">Bike</span>
+<select id="bike" name="bike" multiple="multiple" size="4">
+	<optgroup label="Aprilla">
+				<option value="Tuono150">Tuono150</option>
+				<option value="Tuono660">Tuono660</option>
+				<option value="RS150">RS150</option>
+				</optgroup>
+				<optgroup label="Bajaj">
+				<option value="Avenger220">Avenger220</option>
+				<option value="Avenger160">Avenger160</option>
+				<option value="Pulsar NS200">Pulsar NS200</option>
+				</optgroup>
+				<optgroup label="BMW">
+				<option value="G310R">G310R</option>
+				<option value="G310GS">G310GS</option>
+				<option value="G310RR">G310RR</option>
+				</optgroup>
+			</select>
+			&nbsp;&nbsp;
+			<input type="checkbox" name="Vehicles" id="Vehicles" value="bike">
+			<span id="Vehicles">Car</span>
+			<select id="car" name="car" multiple="multiple" size="4">
+	<optgroup label="Honda">
+				<option value="City">City</option>
+				<option value="Amaze">Amaze</option>
+				<option value="Jazz">Jazz</option>
+				</optgroup>
+				<optgroup label="Tata">
+				<option value="Harrier">Harrier</option>
+				<option value="Nexon">Nexon</option>
+				<option value="Altroz">Altroz</option>
+				</optgroup>
+				<optgroup label="Mahindra">
+				<option value="Thar">Thar</option>
+				<option value="Scorpio">Scorpio</option>
+				<option value="Bolero">Bolero</option>
+				</optgroup>
+			</select>
+			&nbsp;&nbsp;
+			<input type="checkbox" name="Vehicles" id="Vehicles" value="bike">
+			<span id="Vehicles">Others</span><br><br><br>
+			&nbsp;&nbsp;
+    <label>Games:</label>
+    <input list="game">
+    <datalist id="game">
+	    <option value="Cricket" >
+		<option value="Football">
+	    <option value="Badminton">
+		<option value="Chess">
+		<option value="Hockey">
+         <option value="Rugby">
+         </datalist><br><br><br>
+         <label>Known Language:</label>
+         <input type="checkbox" name="language" id="language" value="Nepali">&nbsp;<span id="language">Nepali</span>
+         &nbsp;&nbsp;
+         <input type="checkbox" name="language" id="language" value="English">&nbsp;<span id="language">English</span>
+         &nbsp;&nbsp;
+         <input type="checkbox" name="language" id="language" value="Indian">&nbsp;<span id="language">Indian</span>
+         &nbsp;&nbsp;
+         <input type="checkbox" name="language" id="language" value="Chinese">&nbsp;<span id="language">Chinese</span><br><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <input type="checkbox" name="language" id="language" value="Japanese">&nbsp;<span id="language">Japanese</span>
+         &nbsp;&nbsp;
+         <input type="checkbox" name="language" id="language" value="Korean">&nbsp;<span id="language">Korean</span>
+         &nbsp;&nbsp;
+         <input type="checkbox" name="language" id="language" value="Others">&nbsp;<span id="language">Others</span><br><br><br>
+         <label>Textarea:</label>
+         <textarea name="textarea" id="textarea" cols="30" rows="5" maxlength="200"></textarea>
+	</fieldset><br><br>
+	<input class="submit" type="submit" id="submit" value="Submit">
+	<input type="reset" value="Reset" id="submit">
+	</fieldset>
+</form>
+</div></div>
+</body>
+</html>
